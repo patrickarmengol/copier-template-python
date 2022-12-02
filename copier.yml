@@ -1,0 +1,33 @@
+_subdirectory: project
+
+# questions
+
+project_name:
+    type: str
+    help: what is the project name?
+    placeholder: whatever
+
+project_description:
+    type: str
+    help: what is the point of it all?
+    placeholder: my awesome project
+
+author_username:
+    type: str
+    help: what is your username?
+    placeholder: ongogab
+
+author_fullname:
+    type: str
+    help: what is your fullname?
+    placeholder: Ongo Gablogian
+
+author_email:
+    type: str
+    help: what is your email address?
+    placeholder: ongogab@frank.sunny
+
+copyright_year:
+    type: str
+    help: what year is it?
+    default: "2002"
